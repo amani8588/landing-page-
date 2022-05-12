@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(document).ready(function(){
+  jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: false ,
+      minHeight: '400',
+      thumbnails: false,
+      height: '30.05208333333333%',
+      caption: true,
+      navigation: true,
+      fx: 'mosaic'
+    });
+  /* carousel */
+     $("#owl").owlCarousel({
+          items : 1, //10 items above 1000px browser width
+          itemsDesktop : [995,1], //5 items between 1000px and 901px
+          itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+          itemsTablet: [700, 1], //2 items between 600 and 0
+          itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+          navigation : true,
+          pagination :  false
+
+      });
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  });
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body class="page1" id="top">
+  <div class="main">
+    <footer>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="grid_12">
+             <div class="socials">
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-google-plus"></a>
+              <a href="#" class="fa fa-pinterest"></a>
+              </div>
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4">
+                  </div>
+                  <div class="col-lg-2 offset-lg-2">
+                      <div class="location-widget">
+                          <h4>Our Location</h4>
+                          <p>KHartoum, <br><br>Obaid Khatim Street, <br>Sudan</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-2">
+                      <div class="customer-care">
+                          <h4>Customer Care</h4>
+                          <ul class="info">
+                              <li><a href="#">079-5326</a></li>
+                              <li><a href="#">249193787481</a></li>
+                              <li><a href="#">P.O.BOX 13614</a></li>
+                              <li><a href="#">MMC@murtadamaaz.com</a></li>
+                          </ul>
+                      </div>
+                  </div>
+             <div class="copyright"><div class="color2"><strong>MMC Consultancy</strong> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a></div>
+
+              </div>
+              <div class="container">
+              <div class="row">
+                  <div class="col-lg-4">
+
+                  </div>
+
+                  </div>
+                  <div class="col-lg-2">
+
+                      </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!--==============================
+              header
+=================================-->
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+
+        <div class="clear"></div>
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>
+      <div class="clear"></div>
+    </div>
+   </div>
+  </div>
+  <div id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+        <div class="navigation ">
+          <nav>
+            <ul class="sf-menu">
+             <li class="current"><a href="index.html">Home</a></li>
+             <li><a href="index-1.html">Projects</a></li>
+             <li><a href="index-2.html">Services</a></li>
+             <li><a href="index-3.html">Achnowldgem</a></li>
+             <li><a href="index-4.html">Contacts</a></li>
+           </ul>
+          </nav>
+
+          <div class="clear"></div>
+      </div> </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="slider_wrapper ">
+  <div id="camera_wrap" class="">
+    <div data-src="images/slide.jpg">
+      <div class="caption fadeIn">
+      We are MMC we change design world
+      </div>
+    </div>
+    <div data-src="images/slide1.jpg">
+      <div class="caption fadeIn">
+        We Build the new World
+      </div>
+    </div>
+    <div data-src="images/slide2.jpg">
+      <div class="caption fadeIn">
+        Great Architecture Solutions
+      </div>
+    </div>
+  </div>
+</div>
+<!--=====================
+          Content
+======================-->
+<section class="content">
+  <article class="content_bg1 pad__1">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count"> 01</div>
+            <h3>Architecture</h3>
+            <div class="text1">Architecture and interior design is the combination of our clients’ needs and values, art and technology, community and place – all coming together creatively to build environments that enrich people’s lives and elevate the human spirit. </div>
+            To do this, MMC focuses on promoting architectural design excellence rather than a signature style, because our design response for each project arises out of the specifics of its site, program, and physical and cultural context.
+          Our approach is thoughtful and collaborative; each design and construction stakeholder plays an important role in helping us derive the right the solution to delight our clients.
+          In designing interiors MMC aims to inspire and reflect our clients’ identities. We familiarize ourselves with their needs, histories, brand identities, work styles, and management philosophies to balance artistic expression with functional, pragmatic considerations.
+          MMC integrates all of our services to create facilities that meet clients’ needs both now and in the future. We put all our talents, ideas and experiences toward striking the right balance between achieving unequaled building solutions and meeting our clients’ business needs, goals, and ultimate visions.
+
+          </div>
+        </div>
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">02</div>
+            <h3>InfraStructure</h3>
+            <div class="text1">MMC helps develop infrastructure projects that can meaningfully improve peoples’ lives in emerging markets, with a special emphasis on fast-growing cities where there are critical needs in power, utilities, and transportation.</div>
+            We offer long-term financing, industry-leading sector expertise, and an established track record in developing countries. Our focus is supporting private infrastructure projects with strong development impact whose business models can be replicated elsewhere.
+             As part of the MMC, we also help create the conditions to attract increased private capital for infrastructure, and help structure public-private partnerships that can upgrade water systems, electricity networks, and roads.
+            <br><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <div class="pad__1">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">03</div>
+            <h3>Construction Project Management</h3>
+            <div class="text1">Reliable program and construction management from start to finish. </div>
+            With full program and construction management services, MMC is a reliable, capable, and trustworthy partner to our clients in the successful and safe completion of their projects and programs. Over 90 percent of our company’s work is repeat business from loyal customers; demonstrating the value of the long-term relationships we build with our clients.
+
+          Each client’s requirements are unique, so our collaborative and flexible teams approach each program differently.
+
+         MMC can deliver total design and construction management using our own talented resources, or we can orchestrate the work of outside architects, engineers, and contractors, or we can facilitate a combination of both to best suit the project requirements.
+
+          From the pre-construction phase to construction to post-construction, MMC functions as an extension of our clients, putting their best interests first and handling every aspect of design and construction delivery.
+            <br><br>
+            </div>
+        </div>
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">04</div>
+            <h3>Interior Design</h3>
+            <div class="text1">Solutions that support your culture, mission, and purpose.</div>
+            MMC designs interior spaces for living and working. Interior performance can be measured in human and organizational terms: higher productivity, greater creativity and innovation, increased patronage or sales. Hitting the mark means designing not just for visual impact, but also for health, comfort, flexibility and ease of use.
+           Our designers work collaboratively and strategically to deliver innovation, quality and sustainable performance. Our projects are international in scope and range from offices to stores, academic and civic buildings, convention centers, and entertainment and cultural venues.
+            <br><br>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <article class="content_bg1 pad__2">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6">
+          <h2>About us</h2>
+          <div class="extra_wrapper">
+            <div class="text1"><a href="#">Murtada Maaz Consultancy Is a well-established practice founded back in 1995 to provide excellence through innovation, by Architect Murtada Maaz, the founder and general manager of company , and is located in Khartoum Sudan. </a></div>
+            Since Murtada Maaz Consultancy established in 1995 , it has worked on more than 900 projects, its key objective is to provide precise professional services in a versatile and efficient manner. The complexity inherent in the design and construction industry demands clear thinking and an organized project management approach. The clarity evident in our project management abilities also surfaces in our design skills; our designs are technically resolved and clearly delineated.
+            World class collaboration, Peerless solutions are only revealed by partners. That is the art of collaboration. Every time we work in partnership with a company or individuals we put our reputation on the line. That’s why we only choose to partner with the best of the best.
+            As we reflect on those years, we realize that passion truly fuels our practice. We offer distinctive design and personalized service to each client based on an in-depth understanding of their goals and needs. We devote hours to each project, paying close attention to the details without losing sight of the bigger picture. Project teams are assigned to each project we undertake, and the team members see the work through from start to finish. Our Principals play a leadership role in every project; their extensive personal interaction with the client and project staff insures the best design possible.
+          </div>
+          <div class="clear"></div>
+          </div>
+        <div class="grid_6">
+          <h2>Quality Policy</h2>
+          <div class="news">
+          <div class="extra_wrapper">
+              <div class="text2"><a href="#">Murtada Maaz Consultancy (MMC) Company offers consultancy services, its main purpose covers package services of include which design, project management, construction supervision, and planning and asset evaluation. </a></div>
+              <p>We at MMC are fully committed to the standards and requirements of ISO 9001:2008 and work as one team to achieve the following objectives:</p>
+              Identify the needs and expectation of our clients, fulfilling them to reach their satisfaction, and keeping balance between different partners.
+              Continual development and enhancement of quality management system and its effectiveness
+              Develop staff skills, encouraging competition, creation, and innovation.
+              Using latest technologies and software in main operations and keep up with .
+              Contribute to the support of community through various .
+              Always considering the environment, health and safety in our .
+
+
+
+<!--==============================
+              footer
+=================================-->
+</div>
+
+</body>
+</html>
